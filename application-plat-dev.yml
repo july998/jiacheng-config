@@ -3,3 +3,8 @@ server:
 spring:
   application:
     name: JIACHENG-PLAT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///jiacheng?useSSL=false&useUnicode=true&characterEnconding=utf8
+    username: root
+    password: root
