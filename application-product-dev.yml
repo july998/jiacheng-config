@@ -1,0 +1,10 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: JIACHENG-PRODUCT
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///jiacheng-product?useSSL=false&useUnicode=true&characterEnconding=utf8
+    username: root
+    password: root
